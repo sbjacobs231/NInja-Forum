@@ -1,8 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
-#header {
+html * {
 	font-family: 'Indie Flower', cursive;
-	font-size: 50px;
+}
+
+.ninja {
+	position: fixed;
+	left:100px;
+	top:100px;
+	z-index: -1;
+	width: 200px;
+}
+
+.ninja1 {
+	position: fixed;
+	right: 100px;
+	top: 100px;
+	z-index: -1;
+	width: 200px;
+}
+#header {
+	font-size: 100px;
 	margin-bottom: 10px;
 }
 
@@ -15,9 +33,14 @@ img {
 	width: 150px;
 }
 
-.margin {
+input {
+	height: 20px;
+}
+
+.boxes {
 	margin-bottom: 20px;
-	width: 200px;
+	width: 250px;
+	font-size: 15px;
 }
 
 textarea {
@@ -33,11 +56,15 @@ h3 {
 #btn {
 	width: 100px;
 	background-color: #1FC7E2;
-	border: 2px solid black;
+	border: 1px solid black;
+	border-radius: 5px;
 	font-size: 20px;
 	color: white;
+	font-size: 25px;
 }
 
 #btn:hover {
 	cursor: pointer;
+	background-color: #A4DAE8;
+	transition: .3s;
 }
